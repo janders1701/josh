@@ -1,8 +1,8 @@
 $(".themeChange").on("click", function () {
-    if ($(this).hasClass("lightmode")) {
+    if ($(this).hasClass("light-mode")) {
         $("#stylesheet").attr("href", "./css/style.css")
     }
-    else if ($(this).hasClass("darkmode")) {
+    else if ($(this).hasClass("dark-mode")) {
         $("#stylesheet").attr("href", "./css/darkmode.css") 
 
     } 
