@@ -26,7 +26,9 @@
     display: flex; 
     justify-content: flex-start;
     }
-  
+
+    
+  /*removed padding from flex container*/
   .flex-container {
     display: flex;
     justify-content: space-around;
