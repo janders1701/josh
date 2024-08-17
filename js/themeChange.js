@@ -8,5 +8,3 @@ $(".themeChange").on("click", function () {
     } 
     console.log($("#stylesheet").attr("href"));
 }); 
-
-
