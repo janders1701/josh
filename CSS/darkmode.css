@@ -1,5 +1,4 @@
 .hero {
-    background-color: #000102;
     color: white ; 
     padding: 100px;
     font-family: Arial, Helvetica, sans-serif;
@@ -10,7 +9,6 @@
     margin: 0;
   }
   header {
-    background-color: #E1E4E4;
     padding: 15px;
   }
   header ul {
@@ -32,59 +30,92 @@
   .flex-container {
     display: flex;
     justify-content: space-around;
+    background-color: white;
+    padding-top: 20px;
   }
   
-  .researcher {
+  .Interface, .webDev, .researcher {
     width: 33%;
-  
+    text-align: center;
+    padding: 30px;
+    background-color: white;
   }
+ 
   
-  .Interface {
-    width: 33%;
-    padding-left: 100px;
-    padding-right: 100px;
+  .workGrid {
+    display: flex; 
+    flex-direction: column; 
+    padding: 30px;
+    background-color: white;
+    margin: 50px
+   }
+   
+   
+   .weather {
+    display: flex; 
+    flex-direction: row-reverse; 
+    justify-content: flex-end;
+   }
+   
+   
+   .proj1btn {
+    width: 150px;
+   }
+   
+   /*REPEATED THE SAME THING FOR THE NSPKU SECTION*/
+   
+   .workGrid2 {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+   }
+   
   
-  }
-  
-  .webDev {
-    width: 33%;
-  
-  }
-  
-  .workGrid{
+   .NSPKU {
     display: flex;
     flex-direction: row-reverse;
-    align-items: flex-start;
-  }
-  
-  .weather {
-  display: block; 
-  justify-content: flex-start;
-  
-  }
-  
-  
-  
-  .NSPKU {
-    display: block; 
-    justify-content: flex-start;
+    justify-content: flex-end;
+   }
+   
+   .proj2btn {
+    width: 150px;
+   }
+
+   .myskills {
+    background-color: black;
+   }
+    h1 {
+      color: white;
+      background-color: black;
+      margin: 0;
+      padding: 20px;
     }
   
-    .workGrid2{
-    display: flex;
-    flex-direction: row-reverse;
+    .MyWork {
+      background-color: black;
     }
+
+
+  
   
   li a {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    color: white;
     display: block;
     padding: 10px;
   }
   
   header p {
     display: inline-block;
+  }
+
+  header {
+    background-color: #36454F;
   }
   
   .inline-block {
@@ -93,7 +124,6 @@
   
   .hero {
     background-color: #000102;
-    color: white ; 
     padding: 100px;
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -153,7 +183,7 @@
   }
   
   footer {
-    background-color: #E1E4E4;
+    background-color: #36454F;
     padding: 5px;
     color: white;
   }
