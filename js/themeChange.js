@@ -1,13 +1,12 @@
 $(".themeChange").on("click", function () {
-    if ($(this).hasClass("light-mode")) {
+    if ($(this).hasClass("lightmode")) {
         $("#stylesheet").attr("href", "./css/style.css")
     }
-    else if ($(this).hasClass("dark-mode")) {
+    else if ($(this).hasClass("darkmode")) {
         $("#stylesheet").attr("href", "./css/darkmode.css") 
 
     } 
-    console.log($("#stylesheet").attr("href")); // Log the current href
-
+    console.log($("#stylesheet").attr("href"));
 }); 
 
 
